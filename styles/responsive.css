@@ -1,0 +1,45 @@
+/*---------------------------------
+    mobile device
+----------------------------------*/
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .nav-logo{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-items{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-items ul{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+
+/*--------------------------------
+    tablet device
+-----------------------------------*/
+@media screen and (min-width:576px) and (max-width:960px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+        .nav-logo {
+            width: 100%;
+            justify-content: center;
+        }
+    
+        .nav-items {
+            width: 100%;
+            text-align: center;
+        }
+        .nav-items ul{
+            justify-content: space-around;
+        }
+}

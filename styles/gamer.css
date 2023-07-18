@@ -1,0 +1,76 @@
+/*-------------------------------
+    google font
+----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+/*---------------------------------
+    common styles start from here
+---------------------------------*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.text-primary{
+    color: #FF42A5;
+}
+
+/*---------------------------------
+    header styles start from here
+----------------------------------*/
+
+/*-------------------------------
+    nav style start from here
+--------------------------------*/
+nav{
+    padding: 20px 0;
+}
+.nav-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+}
+.nav-logo img{
+    width: 75px;
+
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-items{
+    width: 50%;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items li{
+    list-style: none;
+}
+.nav-items a{
+    color: #3C354F;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-items .nav-icons{
+    background-color: lightgray;
+    padding: 10px 30px;
+    border-radius: 8px;
+    align-items: center;
+}
+.nav-items .youtube-logo{
+    margin: 0 10px;
+}
+
