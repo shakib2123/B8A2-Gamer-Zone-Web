@@ -45,7 +45,7 @@ nav{
 
 }
 .nav-title{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
 }
 .nav-items{
@@ -62,7 +62,7 @@ nav{
     color: #3C354F;
     font-weight: 500;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .nav-items .nav-icons{
     background-color: lightgray;
@@ -72,5 +72,59 @@ nav{
 }
 .nav-items .youtube-logo{
     margin: 0 10px;
+}
+
+/*-------------------------------------------
+    main section styles start from here
+------------------------------------------*/
+
+/*------------------------------------------
+    banner-section styles start from here
+------------------------------------------*/
+.banner-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    margin: 50px 0;
+}
+.banner-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left;
+    width: 50%;
+    height: 500px;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.banner-degree{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5.9rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.banner-info p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.fa-solid, .fa-regular{
+    color: #F948B2;
+    margin-right: 10px;
+}
+.banner-img{
+    width: 80%;
 }
 
