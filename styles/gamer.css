@@ -22,6 +22,16 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.btn-primary, .banner-btn{
+    padding: 13px 30px;
+    background-color: #FF42A5;
+    border: 0;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
 
 /*---------------------------------
     header styles start from here
@@ -109,12 +119,11 @@ nav{
     color: #0B0223;
     font-size: 3.2rem;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 .banner-degree{
     font-size: 5.9rem;
     font-weight: 900;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .banner-info p{
     color: #534C64;
@@ -126,8 +135,51 @@ nav{
     color: #F948B2;
     margin-right: 10px;
 }
+.banner-btn{
+    background-color: #4EC5F7;
+    margin-left: 30px;
+}
 .banner-img{
     width: 80%;
+}
+
+/*----------------------------------
+    community section style
+----------------------------------*/
+.community-container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.community-img-container{
+    width: 60%;
+}
+.community-img-container img{
+    width: 100%;
+}
+.community-info{
+    width: 30%;
+    text-align: right;
+}
+.community-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.community-description{
+    color: #534C64;
+    font-size: 18px;
+    line-height: 25px;
+}
+.community-caption-one, .community-caption-tow{
+    color: #534C64;
+    font-weight: 500;
+    line-height: 45px;
+}
+.community-caption-one{
+    margin-top: 30px;
 }
 
 /*----------------------------------
@@ -154,6 +206,9 @@ nav{
 .card{
     text-align: left;
     width: 250px;
+}
+.card p{
+    margin-top: 10px;
 }
 .card img{
     width: 100%;
@@ -233,9 +288,20 @@ nav{
     justify-content: space-around;
     margin: 100px 0;
 }
+.advertise-container-tow{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+}
 .advertise-info{
     width: 30%;
     text-align: right;
+}
+.advertise-info-tow{
+    width: 30%;
+    text-align: left;
 }
 .advertise-title{
     font-size: 3rem;
@@ -248,7 +314,7 @@ nav{
     line-height: 20px;
 
 }
-.advertise-img-container {
+.advertise-img-container, .advertise-container-tow {
     position: relative;
 }
 
@@ -261,6 +327,17 @@ nav{
     position: absolute;
     top: 55%;
     left: -15%;
+    z-index: 2;
+}
+.image-one {
+    position: relative;
+    z-index: 1;
+}
+
+.image-tow {
+    position: absolute;
+    top: 55%;
+    left: 40%;
     z-index: 2;
 }
 
