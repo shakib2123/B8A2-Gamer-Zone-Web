@@ -47,7 +47,7 @@ nav{
     gap: 15px;
 }
 .nav-logo img{
-    width: 75px;
+    width: 80px;
 
 }
 .nav-title{
@@ -259,7 +259,111 @@ nav{
 
 .image2 {
     position: absolute;
-    top: 50%;
-    left: -10%;
+    top: 55%;
+    left: -15%;
     z-index: 2;
+}
+
+
+/*-----------------------------------
+    items section
+----------------------------------*/
+.items-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+    height: 250px;
+    margin: 0 auto  50px;
+    gap: 15px;
+}
+.item{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+    border-radius: 50px;
+}
+.item:hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
+}
+
+
+/*-----------------------------------
+    footer section style
+-----------------------------------*/
+footer{
+    background-color: #0B0223;;
+}
+.footer-container{
+    text-align: center;
+    padding: 70px;
+}
+.footer-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.footer-logo img{
+    width: 80px;
+}
+.footer-title{
+    font-size: 3rem;
+}
+.footer-items-container{
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 18px;
+    justify-content: center;
+
+}
+.footer-items{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.footer-social-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+.footer-btn{
+    display: inline-flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.footer-btn a i{
+    color: white;
+    font-size: 2.3rem;
+}
+.footer-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+.footer-reservation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    gap: 2px;
 }

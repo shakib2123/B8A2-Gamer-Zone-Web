@@ -71,6 +71,8 @@
         flex-direction: column;
         text-align: center;
         padding: 10px;
+        gap: 20px;
+        margin-bottom: 50px;
     }
     .advertise-info {
         width: 100%;
@@ -83,12 +85,67 @@
         
     }
     .image1{
-        width: 80%;
+        width: 83%;
     }
     .image2{
         width: 30%;
-        left: 7%;
+        left: 6%;
         top: 60%;
+    }
+
+    /*----------------------------------
+        items section
+    ---------------------------------*/
+    .items-container{
+        padding: 10px;
+        gap: 10px;
+        height: 100px;
+    }
+    .item {
+        width: 30%;
+    }
+    .item img{
+        width: 20px;
+    }
+    .item-name{
+        font-size: 10px;
+    }
+    .mobile-item{
+        display: none;
+    }
+    /*---------------------------------
+        footer section
+    ------------------------------------*/
+    .footer-items-container{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+    .footer-items{
+        gap: 35px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .footer-social-container{
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .footer-btn{
+        gap: 50px;
+        margin-bottom: 0;
+    }
+    .footer-info-container{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    .footer-info{
+        font-size: 16px;
+        gap: 35px;
+    }
+    .footer-reservation{
+        flex-direction: column;
     }
 }
 
@@ -142,30 +199,70 @@
     /*-----------------------------------
         advertise section
     ----------------------------*/
-        .advertise-container {
-            flex-direction: column;
-            text-align: center;
-            padding: 10px;
-        }
-        .advertise-info {
-            width: 100%;
-            text-align: center;
-        }
+    .advertise-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .advertise-info {
+        width: 100%;
+        text-align: center;
+    }
         
-        .advertise-img-container {
-            width: 100%;
-            padding: 20px;
-            text-align: right;
+    .advertise-img-container {
+        width: 100%;
+        padding: 20px;
+        text-align: right;
         
-        }
+    }
         
-        .image1 {
-            width: 80%;
-        }
+    .image1 {
+        width: 82%;
+    }
         
-        .image2 {
-            width: 30%;
-            left: 7%;
-            top: 60%;
-        }
+    .image2 {
+        width: 30%;
+        left: 6%;
+        top: 60%;
+    }
+    /*---------------------------------
+        footer section
+    ------------------------------------*/
+    .footer-items-container {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+        
+    .footer-items {
+        gap: 35px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+        
+    .footer-social-container {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+        
+    .footer-btn {
+        gap: 50px;
+        margin-bottom: 0;
+    }
+        
+    .footer-info-container {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+        
+    .footer-info {
+        font-size: 16px;
+        gap: 35px;
+    }
+        
+    .footer-reservation {
+        flex-direction: column;
+    }
 }
