@@ -63,6 +63,33 @@
     .card-description{
         font-size: 1rem;
     }
+    
+    /*---------------------------------
+        advertise section
+    --------------------------------*/
+    .advertise-container{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .advertise-info {
+        width: 100%;
+        text-align: center;
+    }
+    .advertise-img-container{
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+        
+    }
+    .image1{
+        width: 80%;
+    }
+    .image2{
+        width: 30%;
+        left: 7%;
+        top: 60%;
+    }
 }
 
 
@@ -111,4 +138,34 @@
         flex-wrap: wrap;
         gap: 50px;
     }
+
+    /*-----------------------------------
+        advertise section
+    ----------------------------*/
+        .advertise-container {
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+        }
+        .advertise-info {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .advertise-img-container {
+            width: 100%;
+            padding: 20px;
+            text-align: right;
+        
+        }
+        
+        .image1 {
+            width: 80%;
+        }
+        
+        .image2 {
+            width: 30%;
+            left: 7%;
+            top: 60%;
+        }
 }

@@ -192,7 +192,7 @@ nav{
     width: 100%;
     height: 100%;
     background-color: transparent;
-    opacity: .5;
+    opacity: 1;
     transition: .5s ease-in-out;
 }
 
@@ -212,7 +212,7 @@ nav{
 
 .video-container:hover .overlay {
     opacity: .2;
-    background-color: #000000;
+    background-color: black;
 }
 
 .video-container:hover .text {
@@ -221,4 +221,45 @@ nav{
 
 .play-button:hover {
     background-color: black;
+}
+
+/*------------------------------------
+    advertise section style
+--------------------------------------*/
+.advertise-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+.advertise-info{
+    width: 30%;
+    text-align: right;
+}
+.advertise-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.advertise-description{
+    color: #534C64;
+    font-size: 1.1rem;
+    line-height: 20px;
+
+}
+.advertise-img-container {
+    position: relative;
+}
+
+.image1 {
+    position: relative;
+    z-index: 1;
+}
+
+.image2 {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    z-index: 2;
 }
