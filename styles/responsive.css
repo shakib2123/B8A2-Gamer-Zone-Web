@@ -1,389 +1,387 @@
 /*---------------------------------
     mobile device
 ----------------------------------*/
-@media screen and (max-width:576px) {
-    /*--------------------------
+@media screen and (max-width: 576px) {
+  /*--------------------------
         navigation bar
     ------------------------*/
-    .nav-container{
-        flex-direction: column;
-        gap: 30px;
-        align-content: center;
-    }
-    .nav-logo{
-        width: 100%;
-        justify-content: center;
-    }
-    .nav-items{
-        text-align: center;
-        width: 100%;
-        
-    }
-    .nav-items{
-        flex-direction: column;
-        gap: 25px;
-    }
-    /*--------------------------------
+  .nav-container {
+    flex-direction: column;
+    gap: 30px;
+    align-content: center;
+  }
+  .nav-logo {
+    width: 100%;
+    justify-content: center;
+  }
+  .nav-items {
+    text-align: center;
+    width: 100%;
+  }
+  .nav-items {
+    flex-direction: column;
+    gap: 25px;
+  }
+  /*--------------------------------
         banner section
     --------------------------------*/
-    .banner-container{
-        flex-direction: column-reverse;
-        gap: 0px;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    .banner-info{
-        width: 100%;
-        height: 400px;
-        padding: 60px 0;
-    }
-    .banner-img-container{
-        text-align: center;
-    }
-    .banner-title {
-        font-size: 2.2rem;
-        text-align: center;
-    }
-    
-    .banner-degree {
-            font-size: 4rem;
-            text-align: center;
-            margin-bottom: 5px;
-    }
-    .btn-primary, .banner-btn{
-        margin-top: 5px;
-    }
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 0px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .banner-info {
+    width: 100%;
+    height: 400px;
+    padding: 60px 0;
+  }
+  .banner-img-container {
+    text-align: center;
+  }
+  .banner-title {
+    font-size: 2.2rem;
+    text-align: center;
+  }
 
-    /*-------------------------------------
+  .banner-degree {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .btn-primary,
+  .banner-btn {
+    margin-top: 5px;
+  }
+
+  /*-------------------------------------
         community section
     ---------------------------------------*/
-    .community-container{
-        flex-direction: column;
-        padding: 0 10px;
-    }
-    .community-img-container{
-        width: 100%;
-    }
-    .community-info{
-        width: 100%;
-        text-align: center;
-    }
+  .community-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .community-img-container {
+    width: 100%;
+  }
+  .community-info {
+    width: 100%;
+    text-align: center;
+  }
 
-    /*---------------------------------
+  /*---------------------------------
         card section
     -------------------------------*/
-    .card-container{
-        padding: 10px;
-        margin: 20px 0;
-    }
-    .cards{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-    .card-title{
-        font-size: 2rem;
-    }
-    .card-description{
-        font-size: 1rem;
-    }
-    
-    /*---------------------------------
+  .card-container {
+    padding: 10px;
+    margin: 20px 0;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-description {
+    font-size: 1rem;
+  }
+
+  /*---------------------------------
         advertise section
     --------------------------------*/
-    .advertise-container{
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-        gap: 10px;
-        margin-bottom: 0px;
-    }
-    .advertise-container-tow{
-        flex-direction: column-reverse;
-        text-align: center;
-        padding: 10px;
-        gap: 10px;
-    }
-    .advertise-info, .advertise-info-tow {
-        width: 100%;
-        text-align: center;
-    }
-    .advertise-img-container{
-        width: 100%;
-        padding: 20px;
-        text-align: right;
-        
-    }
-    .advertise-img-container-tow{
-        width: 100%;
-        padding: 20px;
-        text-align: left;
-        
-    }
-    .image1{
-        width: 83%;
-    }
-    .image2{
-        width: 30%;
-        left: 7%;
-        top: 65%;
-    }
-    .image-one{
-        width: 83%;
-    }
-    .image-tow{
-        width: 30%;
-        left: 60%;
-        top: 76%;
-    }
-    /*-----------------------------
+  .advertise-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+  .advertise-container-tow {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  .advertise-info,
+  .advertise-info-tow {
+    width: 100%;
+    text-align: center;
+  }
+  .advertise-img-container {
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+  }
+  .advertise-img-container-tow {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+  .image1 {
+    width: 83%;
+  }
+  .image2 {
+    width: 30%;
+    left: 7%;
+    top: 65%;
+  }
+  .image-one {
+    width: 83%;
+  }
+  .image-tow {
+    width: 30%;
+    left: 60%;
+    top: 76%;
+  }
+  /*-----------------------------
         careers section
     -------------------------------*/
-    .careers-container{
-        flex-direction: column;
-        padding: 50px 0;
-        gap: 50px;
-    }
-    .careers-info-container{
-        width: 100%;
-        justify-content: center;
-    }
-    .careers-info{
-        justify-content: center;
-    }
-    .careers-type{
-        font-size: 14px;
-    }
-    .careers-btn{
+  .careers-container {
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 50px;
+  }
+  .careers-info-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .careers-info {
+    justify-content: center;
+  }
+  .careers-type {
     font-size: 14px;
-    }
-    .careers-img-container{
-        width: 90%;
-    }
+  }
+  .careers-btn {
+    font-size: 14px;
+  }
+  .careers-img-container {
+    width: 90%;
+  }
 
-    /*----------------------------------
+  /*----------------------------------
         items section
     ---------------------------------*/
-    .items-container{
-        padding: 10px;
-        gap: 10px;
-        height: 100px;
-    }
-    .item {
-        width: 30%;
-    }
-    .item img{
-        max-width: 20px;
-    }
-    .item-name{
-        font-size: 9px;
-    }
-    /*---------------------------------
+  .items-container {
+    padding: 10px;
+    gap: 10px;
+    height: 100px;
+  }
+  .item {
+    width: 30%;
+  }
+  .item img {
+    max-width: 20px;
+  }
+  .item-name {
+    font-size: 9px;
+  }
+  /*---------------------------------
         footer section
     ------------------------------------*/
-    .footer-items-container{
-        flex-direction: column;
-        gap: 15px;
-        margin-bottom: 50px;
-    }
-    .footer-items{
-        gap: 35px;
-        margin-bottom: 20px;
-        font-size: 16px;
-    }
-    .footer-social-container{
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 50px;
-    }
-    .footer-btn{
-        gap: 50px;
-        margin-bottom: 0;
-    }
-    .footer-info-container{
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 50px;
-    }
-    .footer-info{
-        font-size: 16px;
-        gap: 35px;
-    }
-    .footer-reservation{
-        flex-direction: column;
-    }
+  .footer-items-container {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+  }
+  .footer-items {
+    gap: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .footer-social-container {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .footer-btn {
+    gap: 50px;
+    margin-bottom: 0;
+  }
+  .footer-info-container {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  .footer-info {
+    font-size: 16px;
+    gap: 35px;
+  }
+  .footer-reservation {
+    flex-direction: column;
+  }
 }
-
 
 /*--------------------------------
     tablet device
 -----------------------------------*/
-@media screen and (min-width:576px) and (max-width:960px) {
-    /*----------------------------
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  /*----------------------------
         navigation bar
     ---------------------------*/
-    .nav-container{
-        flex-direction: column;
-        gap: 30px;
-    }
-        .nav-logo {
-            width: 100%;
-            justify-content: center;
-        }
-    
-        .nav-items {
-            width: 100%;
-            text-align: center;
-        }
-        .nav-items{
-            justify-content: space-around;
-        }
-    /*--------------------------------
+  .nav-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .nav-logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-items {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-items {
+    justify-content: space-around;
+  }
+  /*--------------------------------
         banner section
     --------------------------------*/
-    .banner-container{
-        flex-direction: column-reverse;
-        gap: 0px;
-        padding: 20px;
-    }
-    .banner-info{
-        background-size: cover;
-        width: 100%;
-    }
-    .banner-img-container{
-        text-align: center;
-    }
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 0px;
+    padding: 20px;
+  }
+  .banner-info {
+    background-size: cover;
+    width: 100%;
+  }
+  .banner-img-container {
+    text-align: center;
+  }
 
-    /*-------------------------------------
+  /*-------------------------------------
         community section
     ---------------------------------------*/
-    .community-container {
-        flex-direction: column;
-        padding: 0 10px;
-    }
-    
-    .community-img-container {
-        width: 100%;
-    }
-    
-    .community-info {
-        width: 100%;
-        text-align: center;
-    }
-    /*-----------------------------
+  .community-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .community-img-container {
+    width: 100%;
+  }
+
+  .community-info {
+    width: 100%;
+    text-align: center;
+  }
+  /*-----------------------------
         card-section
     --------------------------*/
-    .cards{
-        flex-wrap: wrap;
-        gap: 30px;
-    }
+  .cards {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 
-    /*-----------------------------------
+  /*-----------------------------------
         advertise section
     ----------------------------*/
-    .advertise-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
-    .advertise-container-tow {
-        flex-direction: column-reverse;
-        text-align: left;
-        padding: 10px;
-        gap: 20px;
-    }
-    .advertise-info, .advertise-info-tow{
-        width: 100%;
-        text-align: center;
-    }
-        
-    .advertise-img-container {
-        width: 100%;
-        padding: 20px;
-        text-align: right;
-        
-    }
-        
-    .image1 {
-        width: 82%;
-    }
-        
-    .image2 {
-        width: 30%;
-        left: 8%;
-        top: 67%;
-    }
-    .image-one {
-        width: 83%;
-    }
-    
-    .image-tow {
-        width: 30%;
-        left: 60%;
-        top: 75%;
-    }
-    /*-----------------------------
+  .advertise-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+  .advertise-container-tow {
+    flex-direction: column-reverse;
+    text-align: left;
+    padding: 10px;
+    gap: 20px;
+  }
+  .advertise-info,
+  .advertise-info-tow {
+    width: 100%;
+    text-align: center;
+  }
+
+  .advertise-img-container {
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+  }
+
+  .image1 {
+    width: 82%;
+  }
+
+  .image2 {
+    width: 30%;
+    left: 8%;
+    top: 67%;
+  }
+  .image-one {
+    width: 83%;
+  }
+
+  .image-tow {
+    width: 30%;
+    left: 60%;
+    top: 75%;
+  }
+  /*-----------------------------
         careers section
     -------------------------------*/
-    .careers-container{
-        flex-direction: column;
-        padding: 50px 0;
-        gap: 50px;
-    }
-    .careers-info-container{
-        width: 100%;
-        justify-content: center;
-    }
-    .careers-info{
-        justify-content: center;
-    }
-    .careers-type{
-        font-size: 14px;
-    }
-    .careers-btn{
+  .careers-container {
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 50px;
+  }
+  .careers-info-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .careers-info {
+    justify-content: center;
+  }
+  .careers-type {
     font-size: 14px;
-    }
-    .careers-img-container{
-        width: 90%;
-    }
-    /*---------------------------------
+  }
+  .careers-btn {
+    font-size: 14px;
+  }
+  .careers-img-container {
+    width: 90%;
+  }
+  /*---------------------------------
         footer section
     ------------------------------------*/
-    .footer-items-container {
-        flex-direction: column;
-        gap: 15px;
-        margin-bottom: 50px;
-    }
-        
-    .footer-items {
-        gap: 35px;
-        margin-bottom: 20px;
-        font-size: 16px;
-    }
-        
-    .footer-social-container {
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 50px;
-    }
-        
-    .footer-btn {
-        gap: 50px;
-        margin-bottom: 0;
-    }
-        
-    .footer-info-container {
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 50px;
-    }
-        
-    .footer-info {
-        font-size: 16px;
-        gap: 35px;
-    }
-        
-    .footer-reservation {
-        flex-direction: column;
-    }
+  .footer-items-container {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+  }
+
+  .footer-items {
+    gap: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .footer-social-container {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .footer-btn {
+    gap: 50px;
+    margin-bottom: 0;
+  }
+
+  .footer-info-container {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+
+  .footer-info {
+    font-size: 16px;
+    gap: 35px;
+  }
+
+  .footer-reservation {
+    flex-direction: column;
+  }
 }
