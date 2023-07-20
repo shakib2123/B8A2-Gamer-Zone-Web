@@ -31,6 +31,7 @@ body{
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 /*---------------------------------
@@ -67,7 +68,7 @@ nav{
 .nav-items{
     width: 50%;
 }
-.nav-items ul{
+.nav-items{
     display: flex;
     justify-content: space-between;
 }
@@ -173,13 +174,17 @@ nav{
     font-size: 18px;
     line-height: 25px;
 }
-.community-caption-one, .community-caption-tow{
+.community-caption-one {
     color: #534C64;
     font-weight: 500;
-    line-height: 45px;
 }
 .community-caption-one{
-    margin-top: 30px;
+    margin-top: 20px;
+}
+.community-caption-tow{
+    color: #534C64;
+    font-weight: bolder;
+    margin-top: 5px;
 }
 
 /*----------------------------------
@@ -208,13 +213,14 @@ nav{
     width: 250px;
 }
 .card p{
-    margin-top: 10px;
+    margin-top: 12px;
 }
 .card img{
     width: 100%;
 }
 .video-container {
     position: relative;
+    transition: transform .2s;
 }
 
 .play-button {
@@ -248,7 +254,8 @@ nav{
     height: 100%;
     background-color: transparent;
     opacity: 1;
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
+    border-radius: 8px;
 }
 
 .text {
@@ -258,9 +265,12 @@ nav{
     font-weight: bold;
     color: #F948B2;
     opacity: 0;
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
+.video-container:hover{
+    transform: scale(1.1);
+}
 .video-container:hover .play-button {
     opacity: .7;
 }
@@ -341,6 +351,61 @@ nav{
     z-index: 2;
 }
 
+/*------------------------------
+    careers section 
+-------------------------------*/
+.careers-container{
+    background-color: #FF42A5;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.careers-info-container{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.careers-info{
+    width: 80%;
+    color: white;
+}
+.careers-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.careers-description{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.careers-type{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.careers-btn{
+    margin-top: 20px;
+    padding: 13px 30px;
+    border-radius: 40px;
+    border: 0;
+    color: #F948B2;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.careers-img-container{
+    width: 50%;
+    height: 100%;
+}
+.careers-img{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /*-----------------------------------
     items section
@@ -353,19 +418,23 @@ nav{
     font-weight: 700;
     height: 250px;
     margin: 0 auto  50px;
-    gap: 15px;
+    gap: 10px;
 }
 .item{
-    width: 220px;
+    width: 225px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 5px 0;
+    padding: 5px;
+    gap: 5px;
     border-radius: 50px;
+}
+.item img{
+    max-width: 50px;
 }
 .item:hover{
     border: 1px solid #F948B2;
     color: #F948B2;
+    cursor: pointer;
 }
 
 
@@ -408,6 +477,10 @@ footer{
     gap: 40px;
     margin-bottom: 40px;
 }
+.footer-items a{
+    color: white;
+    text-decoration: none;
+}
 .footer-social-container{
     display: flex;
     align-items: center;
@@ -436,6 +509,10 @@ footer{
     justify-content: center;
     gap: 40px;
     margin-bottom: 25px;
+}
+.footer-info a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
 }
 .footer-reservation{
     display: flex;

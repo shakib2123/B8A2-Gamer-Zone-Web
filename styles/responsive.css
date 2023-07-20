@@ -19,7 +19,7 @@
         width: 100%;
         
     }
-    .nav-items ul{
+    .nav-items{
         flex-direction: column;
         gap: 25px;
     }
@@ -126,7 +126,7 @@
     .image2{
         width: 30%;
         left: 7%;
-        top: 60%;
+        top: 65%;
     }
     .image-one{
         width: 83%;
@@ -134,7 +134,31 @@
     .image-tow{
         width: 30%;
         left: 60%;
-        top: 75%;
+        top: 76%;
+    }
+    /*-----------------------------
+        careers section
+    -------------------------------*/
+    .careers-container{
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 50px;
+    }
+    .careers-info-container{
+        width: 100%;
+        justify-content: center;
+    }
+    .careers-info{
+        justify-content: center;
+    }
+    .careers-type{
+        font-size: 14px;
+    }
+    .careers-btn{
+    font-size: 14px;
+    }
+    .careers-img-container{
+        width: 90%;
     }
 
     /*----------------------------------
@@ -149,13 +173,10 @@
         width: 30%;
     }
     .item img{
-        width: 20px;
+        max-width: 20px;
     }
     .item-name{
-        font-size: 10px;
-    }
-    .mobile-item{
-        display: none;
+        font-size: 9px;
     }
     /*---------------------------------
         footer section
@@ -214,7 +235,7 @@
             width: 100%;
             text-align: center;
         }
-        .nav-items ul{
+        .nav-items{
             justify-content: space-around;
         }
     /*--------------------------------
@@ -254,7 +275,7 @@
     --------------------------*/
     .cards{
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 30px;
     }
 
     /*-----------------------------------
@@ -289,8 +310,8 @@
         
     .image2 {
         width: 30%;
-        left: 6%;
-        top: 60%;
+        left: 8%;
+        top: 67%;
     }
     .image-one {
         width: 83%;
@@ -300,6 +321,30 @@
         width: 30%;
         left: 60%;
         top: 75%;
+    }
+    /*-----------------------------
+        careers section
+    -------------------------------*/
+    .careers-container{
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 50px;
+    }
+    .careers-info-container{
+        width: 100%;
+        justify-content: center;
+    }
+    .careers-info{
+        justify-content: center;
+    }
+    .careers-type{
+        font-size: 14px;
+    }
+    .careers-btn{
+    font-size: 14px;
+    }
+    .careers-img-container{
+        width: 90%;
     }
     /*---------------------------------
         footer section
